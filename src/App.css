@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: montserrat;
+}
+.main-container {
+  margin-left: 30px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.navbar {
+
+  display: flex;
+  justify-content: center;
+}
+.navbar ul {
+  display: flex;
+
+}
+.navbar ul li {
+  list-style: none;
+  padding-left: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar ul li:hover {
+  color: red;
+}
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto 0;
+  margin-right: auto  0;
+}
+
+.container input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.btn {
+  cursor: pointer;
+  background-color: royalblue;
+  width: 90px;
+  height: 40px;
+   color: white;
+   border-radius: 5px;
+   border: none;
+}
+
+.table{
+  margin-top:20px;
+  width:100%;
+}
+
+.table tbody td{
+  text-align: center;
+}
+
+.item-card .btn{
+  margin-right:10px;
+}
+
+.lists {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.lists .item-card {
+  margin: 15px 0;
+  padding: 0 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  display: flex;
+  min-width: 300px;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.3);
+}
+
+.text{
+  color: #000;
+  font-weight: bolder;
+
+}
